@@ -1,0 +1,142 @@
+.header{
+    background: #128c7e;
+    width:100%;
+    height:100px;
+}
+body{
+    margin:0;
+}
+.menu{
+    float:left;
+    width: 0ex;
+}
+
+ul{
+  float: left;
+  display: flex;
+  margin-left: 200px;
+  margin-top: 35px;
+  
+}
+.sel{
+  margin-left: 150px;
+}
+ul li{
+  list-style-type:none;
+  margin-left: 70px;
+  font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    transition: .4s ease-in-out;
+}
+ul li a:hover{
+    color: chartreuse;
+}
+
+.out{
+  margin-top: 40px;
+  width: 100%;
+  height: 600px;
+  padding: 10px;
+}
+.para{
+  margin-top: 100px;
+  margin-left: 350px;
+  float:left;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+.icm h3{
+color: #128c7e;
+}
+.center {
+
+  float:left;
+  width: 20%;
+  margin-left: 120px;
+  
+}
+
+  .outerbox{
+     
+    width: 100%;
+    height: 1100px;
+    padding: 10px;
+  }
+  .image {
+    width: 45%;
+    margin-top: 71px;
+    padding: 170px
+  }
+  
+.box1{    
+    
+    width: 700px;
+    height: 1000px;
+    background: #d0d3da;
+    float:left;
+    margin: 20px;
+   
+ }
+ .imgbox2{
+    width: 65%;
+    margin-left: 120px;
+ }
+ .box2{
+   
+   width: 700px;
+   height: 1000px;
+   background:hsl(158deg 18% 89%);
+   float:left;
+   margin: 20px;
+   
+
+}
+.box1Txt{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  margin-top: 140px;
+  text-align-last: center;
+  
+}
+.box2Txt{
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  margin-top: 50px;
+  text-align-last: center;
+  margin-top: 100px;
+}
+.nextpge {
+  margin-bottom: 50px;
+	font-size: 20px;
+	font-weight: normal;
+	border-radius: 45px;
+	padding: 12px 25px;
+	background-color: rgb(58, 129, 96);
+  width: 200px;
+  margin-left: 630px;
+  
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content:space-around ;
+	align-items:center;
+  background-color: rgb(65, 75, 70);
+
+}
+.footer a{
+	text-decoration: none;
+	color: rgb(239, 243, 239);
+	font-size: 18px;
+	font-weight: bold;
+  
+}
+.footer a:hover{
+	text-decoration: underline;
+	transition: 0.4s;
+}
